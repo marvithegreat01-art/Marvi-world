@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marvi World | Personal Website</title>
+
+    <style>
+
+        /* GLOBAL STYLES */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, serif;
+        }
+
+        body {
+            background-color: #080808;
+            color: white;
+            line-height: 1.8;
+        }
+
+        /* HERO SECTION */
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(
+                to bottom,
+                #1a0505,
+                #080808
+            );
+        }
+
+        header h1 {
+            color: #b30000;
+            font-size: 45px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            color: #dddddd;
+            font-size: 18px;
+            max-width: 650px;
+        }
+
+        /* CONTENT SECTIONS */
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 65px 25px;
+            border-bottom: 1px solid #330000;
+        }
+
+        h2 {
+            color: #cc0000;
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #660000;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #e60000;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #eeeeee;
+            font-size: 17px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            color: #dddddd;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        /* PROJECT CARDS */
+
+        .project-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .project-card {
+            background-color: #151515;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #550000;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* LINKS */
+
+        a {
+            color: #ff3333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        /* CONTACT SECTION */
+
+        .contact-box {
+            background-color: #151515;
+            padding: 30px;
+            border: 1px solid #660000;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #990000;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border: 1px solid #cc0000;
+        }
+
+        .btn:hover {
+            background-color: #cc0000;
+        }
+
+        /* FOOTER */
+
+        footer {
+            text-align: center;
+            padding: 35px 20px;
+            color: #888888;
+            background-color: #050505;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+
+    <header id="home">
+
+        <h1>Welcome to Marvi World</h1>
+
+        <p>
+            I'm Marvellous, also known as Marvi.
+            A dreamer, future software developer,
+            entrepreneur and creator building my
+            future one line of code at a time.
+        </p>
+
+    </header>
+
+
+    <!-- ABOUT ME -->
+
+    <section>
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Marvellous, but you can
+            call me Marvi. This is my first website.
+            I'm a nineteen-year-old guy who is still
+            trying to figure out life on his own.
+        </p>
+
+    </section>
+
+
+    <!-- MY PASSION -->
+
+    <section>
+
+        <h2>My Passion</h2>
+
+        <p>
+            I've always believed that technology is
+            a canvas for creativity. My passion lies
+            in taking ideas out of my head and turning
+            them into real digital experiences.
+        </p>
+
+        <p>
+            I enjoy learning programming, understanding
+            how websites work and developing the skills
+            to build applications that people can use.
+        </p>
+
+    </section>
+
+
+    <!-- MY GOALS -->
+
+    <section>
+
+        <h2>My Goals in Life</h2>
+
+        <p>
+            I want to become a professional software
+            developer and a great lawyer.
+        </p>
+
+        <p>
+            I also dream of owning my own wine company,
+            security company and real estate company.
+            I want to own a large manor estate in the
+            English countryside, a vegetable plantation
+            and a collection of beautiful fast cars.
+        </p>
+
+        <p>
+            I want to build a mobile banking application
+            that can be used worldwide and eventually
+            become financially independent.
+        </p>
+
+        <p>
+            Above everything, I want to live a peaceful
+            life, travel around the world and build a
+            beautiful future with my family.
+        </p>
+
+    </section>
+
+
+    <!-- MY INTERESTS -->
+
+    <section>
+
+        <h2>My Interests</h2>
+
+        <ul>
+            <li>Technology and Software Development</li>
+            <li>Luxury and Performance Cars</li>
+            <li>Business and Entrepreneurship</li>
+            <li>Law and Education</li>
+            <li>Travel and Architecture</li>
+        </ul>
+
+    </section>
+
+
+    <!-- DREAM CAR COLLECTION -->
+
+    <section>
+
+        <h2>Cars I Want to Own Before 23</h2>
+
+        <ul>
+            <li>2014 Mustang Shelby GT500</li>
+            <li>2024 Mustang Shelby Super Snake</li>
+            <li>2020 Jaguar F-Type SVR</li>
+            <li>2024 Range Rover SV Edition One</li>
+            <li>2024 Range Rover SV</li>
+            <li>2023 BMW X5M Competition</li>
+            <li>2010 Lamborghini Murciélago LP670-4</li>
+            <li>2017 Lamborghini Aventador SV</li>
+            <li>2023 Lamborghini Countach LP800-4</li>
+            <li>2019 Lamborghini Huracán Performante</li>
+            <li>2021 McLaren 765LT</li>
+            <li>2021 McLaren 600LT</li>
+            <li>2018 Porsche 918 Spyder</li>
+            <li>2021 Porsche 911 Turbo S</li>
+            <li>2023 Ferrari 812 Competizione</li>
+            <li>Ferrari LaFerrari</li>
+            <li>1991 Ferrari Testarossa</li>
+            <li>Ferrari 488 Pista</li>
+            <li>2023 Mercedes-AMG GT 63 S</li>
+            <li>2023 Mercedes-AMG GT 63 S 4-Door Coupe</li>
+            <li>2018 Mercedes-Benz S65 Coupe</li>
+            <li>2023 Mercedes-AMG G63</li>
+            <li>2023 Bentley Continental GT Convertible</li>
+            <li>2023 Bentley Bentayga</li>
+            <li>2011 Bentley Brooklands</li>
+            <li>2023 Bentley Flying Spur</li>
+            <li>2020 Rolls-Royce Cullinan</li>
+            <li>2023 Rolls-Royce Spectre</li>
+            <li>2023 Rolls-Royce Wraith</li>
+            <li>2016 Rolls-Royce Wraith</li>
+            <li>1996 Nissan 300ZX Twin Turbo</li>
+            <li>1999 Mitsubishi 3000GT VR-4</li>
+            <li>2002 Mazda RX-7</li>
+            <li>2022 Aston Martin V12 Vantage</li>
+            <li>2025 Aston Martin Valhalla</li>
+            <li>2022 Aston Martin Valkyrie</li>
+            <li>2023 Lexus LC500 Convertible</li>
+            <li>2020 Toyota GR Supra 3.0 MT</li>
+        </ul>
+
+    </section>
+
+
+    <!-- PRIVATE JETS -->
+
+    <section>
+
+        <h2>My Dream Private Jets</h2>
+
+        <ul>
+            <li>2000 Dassault Falcon 900B</li>
+            <li>2008 Cessna Citation X</li>
+        </ul>
+
+    </section>
+
+
+    <!-- FUTURE COMPANIES -->
+
+    <section>
+
+        <h2>My Future Companies</h2>
+
+        <ul>
+            <li>Wine Company Across Europe</li>
+            <li>Security Company</li>
+            <li>Real Estate Company</li>
+            <li>Underground Technology Company</li>
+        </ul>
+
+    </section>
+
+
+    <!-- DREAM DESTINATIONS -->
+
+    <section>
+
+        <h2>My Dream Destinations</h2>
+
+        <p>
+            England is one of my biggest dreams.
+            I want to move there, study law and
+            eventually own a large manor estate
+            in the English countryside.
+        </p>
+
+        <p>
+            I also dream of travelling around the
+            world, experiencing different cultures
+            and exploring beautiful destinations.
+        </p>
+
+    </section>
+
+
+    <!-- MY PROJECTS -->
+
+    <section>
+
+        <h2>My Projects</h2>
+
+        <p>
+            This is where I will showcase the websites,
+            applications and software projects I build
+            as I continue learning programming.
+        </p>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <h3>Marvi World</h3>
+
+                <p>
+                    My first personal website,
+                    built using HTML and CSS.
+                </p>
+
+                <a href="#home">Back to Home &rarr;</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT ME -->
+
+    <section>
+
+        <h2>Get In Touch</h2>
+
+        <div class="contact-box">
+
+            <p>
+                Have a project in mind or want
+                to collaborate? Let's talk!
+            </p>
+
+            <p>
+                Email: marvithegreat01@gmail.com
+            </p>
+
+            <a
+                href="mailto:marvithegreat01@gmail.com"
+                class="btn">
+                Send Me an Email
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- GOOGLE LINK -->
+
+    <section>
+
+        <h2>Explore</h2>
+
+        <a href="https://www.google.com" target="_blank">
+            Visit Google
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Built with HTML and CSS.
+            &copy; 2026 Marvellous (Marvi).
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
